@@ -1,0 +1,91 @@
+.cantainer {
+display: flex;
+max-width: center;
+margin: auto;
+height: 80vh;
+align-items: center;
+justify-content: center;
+}
+
+
+.box-1 {
+    /* border: 1px solid black; */
+height: 200px;
+margin:20px;
+font-size: 2.3em;
+flex-wrap: wrap;
+/* background-color:rgb(145, 145, 250); */
+}
+.box-2{
+   display: flex;
+justify-content: center;
+align-items: center;
+min-width: 89vh;
+position: relative;
+width: 300px;
+height: 400px;
+/* border: 1px solid #333; */
+border-radius: 10px;
+box-shadow: 3px 2px 10px;
+flex-wrap: wrap;
+}
+.heading {
+
+    color: blue;
+}
+h2{
+font-size: 2em;
+text-align: center;
+}
+.input-box input {
+width: 100%;
+height: 50px;
+background: transparent;
+border: 1px solid black;
+outline: none;
+border-radius: 5px;
+font-size: 1em;
+padding: 0 10px 0 5px;
+}
+.input-box .icon{
+position: absolute;
+left: 120px;
+font-size: 1.2em;
+line-height: 55px;
+flex-wrap: none;
+}
+button {
+position: relative;
+width: 100%;
+height: 45px;
+background-color: rgb(0, 0, 255);
+border: none;
+outline: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 1em;
+color: white;
+font-weight: 500;
+}
+h1.class2{
+position: relative;
+align-items: center;
+justify-content: center;
+
+}
+.down{
+/* justify-content: center; */
+position: relative;
+width: 100%;
+height: 45px;
+background-color: rgb(0, 182, 0);
+border: none;
+outline: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 1em;
+color: white;
+font-weight: 500;
+
+}
+
